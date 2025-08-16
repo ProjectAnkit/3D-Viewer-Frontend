@@ -10,7 +10,8 @@ import LoadingSpinner from '@/components/viewer/loading';
 import ModelViewer from '@/components/viewer/modelViewer';
 import ProductDescription from '@/components/viewer/productDesc';
 import { useGLTF } from '@react-three/drei';
-
+import dotenv from 'dotenv';
+dotenv.config();
 // Define Product interface
 interface Product {
   id: number;
